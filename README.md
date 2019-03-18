@@ -1,5 +1,8 @@
 # Treasure Hunt
 
+## School project
+NB This project will continue
+
 ## Description
 The main idea for this Android application is a normal quiz walk. However, there
 should be the alternative to make the run as a scavenger hunt. This mean the user does not know
@@ -36,9 +39,6 @@ probably be about the hunt/quiz and not the application.
 ## Links
 [Competitive analyze](/docs/competitive_analyze/competitive_analyze.pdf) <br>
 [PM](/docs/pm/teknisk.pdf) <br>
-[Screencast application](https://youtu.be/T0tQ3bbFh4U) <br>
-[Screencast software](https://youtu.be/2C1A-MHYvAo)
-[Screencast software](https://liuonline-my.sharepoint.com/:v:/r/personal/mater307_student_liu_se/Documents/vokoscreen-2019-01-06_18-42-49.mkv?csf=1&e=9H9M2X)
 
 ## Specifications
 Here is the complete list of specifications that was made in the beginning of the project. Later a
