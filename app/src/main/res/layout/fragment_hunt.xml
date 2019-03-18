@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HuntFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toTopOf="@+id/tableLayout5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/iwHuntImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/iHuntQuestion"
+                        android:scaleType="fitStart"
+                        android:visibility="visible"
+                        app:srcCompat="@color/colorPrimary" />
+
+                    <TextView
+                        android:id="@+id/tHuntQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/colorTableLight"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingTop="20sp"
+                        android:paddingBottom="20sp"
+                        android:text="@string/tHuntQuestion"
+                        tools:layout_editor_absoluteX="95dp"
+                        tools:layout_editor_absoluteY="482dp" />
+
+                </LinearLayout>
+
+                <TableLayout
+                    android:id="@+id/tableLayout5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:id="@+id/etHuntAnswer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/tHuntAnswerDesc"
+                            android:ems="10"
+                            android:inputType="text"
+                            android:text="@string/tHuntAnswer"
+                            tools:layout_editor_absoluteX="52dp"
+                            tools:layout_editor_absoluteY="455dp" />
+
+                        <ImageButton
+                            android:id="@+id/ibHuntHint"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="2dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/ui_buttons"
+                            android:contentDescription="@string/bHuntHint"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/ic_baseline_announcement_24px" />
+
+                        <ImageButton
+                            android:id="@+id/ibHuntAnswer"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="2dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/ui_buttons"
+                            android:contentDescription="@string/bHuntAnswer"
+                            android:padding="10dp"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/ic_baseline_assignment_turned_in_24px" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/tvHuntTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/tHuntTimeDesc"
+                            android:ems="10"
+                            android:inputType="time"
+                            android:padding="5dp" />
+
+                        <ImageView
+                            android:id="@+id/ivHuntNavigation"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="2dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/ui_icons"
+                            android:contentDescription="@string/ivHuntNavigation"
+                            android:padding="10dp"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/ic_baseline_location_off_24px" />
+
+                        <ImageView
+                            android:id="@+id/ivHuntType"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="2dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/ui_icons"
+                            android:contentDescription="@string/ivHuntType"
+                            android:padding="10dp"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/ic_baseline_timer_off_24px" />
+                    </TableRow>
+
+                </TableLayout>
+
+            </android.support.constraint.ConstraintLayout>
+        </ScrollView>
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

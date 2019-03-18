@@ -1,0 +1,383 @@
+{
+  "Country" : {
+    "France" : true,
+    "Germany" : true,
+    "Sweden" : true
+  },
+  "Hunts" : {
+    "level2GPS" : {
+      "GPS" : 12312312,
+      "country" : "countrytext2",
+      "id" : "level2GPS",
+      "location" : "linköping",
+      "name" : "name of hunt2",
+      "noNodes" : 3,
+      "time" : 222222,
+      "totaltime" : 2222233333,
+      "type" : "Hunt"
+    },
+    "level3GPS" : {
+      "GPS" : 33333,
+      "country" : "country3",
+      "id" : "level3GPS",
+      "location" : "linköping",
+      "name" : "name of hunt 3",
+      "noNodes" : 5,
+      "time" : 3333333,
+      "totaltime" : 33333444,
+      "type" : "Hunt"
+    },
+    "levelGPS" : {
+      "coordLati" : 12.321,
+      "coordLong" : 23.2234,
+      "country" : "countrytext",
+      "id" : "levelGPS",
+      "location" : "test",
+      "name" : "name of hunt",
+      "noNodes" : 4,
+      "time" : 1111111,
+      "totaltime" : 6000000,
+      "type" : "Quiz"
+    },
+    "swe2lin31_002" : {
+      "GPS" : 123123,
+      "country" : "Sweden",
+      "id" : "swe2lin31_002",
+      "location" : "Linköping",
+      "name" : "Test quiz mode",
+      "noNodes" : 3,
+      "time" : 600000,
+      "totaltime" : 666000,
+      "type" : "Quiz"
+    },
+    "swe2lin3_20190101" : {
+      "coordLati" : 23.1123,
+      "coordLong" : 23.234234,
+      "country" : "Sweden",
+      "id" : "swe2lin3_20190101",
+      "location" : "Sturefors",
+      "name" : "Test quiz - Sturefors",
+      "noNodes" : 3,
+      "time" : 1,
+      "totaltime" : 600000,
+      "type" : "Quiz"
+    },
+    "swe2lin3_20190103" : {
+      "coordLati" : 58.341147,
+      "coordLong" : 15.720535,
+      "country" : "Sweden",
+      "id" : "swe2lin3_20190103",
+      "location" : "Sturefors",
+      "name" : "Test hunt - onsite",
+      "noNodes" : 3,
+      "time" : 10,
+      "totaltime" : 30000,
+      "type" : "Hunt"
+    },
+    "swe1lin3_20190103" : {
+      "coordLati" : 58.341147,
+      "coordLong" : 15.720535,
+      "country" : "Sweden",
+      "id" : "swe1lin3_20190103",
+      "location" : "Sturefors",
+      "name" : "Test quiz - onsite",
+      "noNodes" : 3,
+      "time" : 10,
+      "totaltime" : 30000,
+      "type" : "Quiz"
+    }
+  },
+  "Location" : {
+    "France" : {
+      "Nice" : "City",
+      "Paris" : "City"
+    },
+    "Sweden" : {
+      "Linköping" : "City",
+      "Stockholm" : "City",
+      "Stockholm Stadium" : "Sightseeing"
+    }
+  },
+  "Paths" : {
+    "levelGPS" : {
+      "Node1" : {
+        "address" : "Some street 2A",
+        "answer" : "qqq",
+        "coordLati" : 58.398695,
+        "coordLong" : 15.576825,
+        "image" : "https://www.w3schools.com/bootstrap4/newyork.jpg",
+        "noTip" : 3,
+        "question" : "Which 2001 Baz Luhrman film sees Ewan McGregor fall in love with a cabaret actress played by Nicole Kidman?",
+        "tip1" : "aksjdkad",
+        "tip2" : "skjasdn",
+        "tip3" : "lsdfmlmsdf",
+        "type" : 1,
+        "zip" : 12342
+      },
+      "Node2" : {
+        "address" : "Second street 3A",
+        "answer" : "www",
+        "coordLati" : 58.397834,
+        "coordLong" : 15.57782,
+        "image" : "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR3,0,182,268_AL_.jpg",
+        "noTip" : 2,
+        "question" : "In the opening scene of the Godfather movie, what is the name of Don Corleone's daughter who's wedding is taking place as her father takes requests?",
+        "tip1" : "bbbbbb",
+        "tip2" : "ccccc",
+        "tip3" : "ddddddd",
+        "type" : 1,
+        "zip" : 22222
+      },
+      "Node3" : {
+        "address" : "Third street 3A",
+        "answer" : "eee",
+        "coordLati" : 58.397311,
+        "coordLong" : 15.575188,
+        "image" : "",
+        "noTip" : 3,
+        "question" : "This is the Node3 keep going and you will reach de goal",
+        "tip1" : "sdfsdf",
+        "tip2" : "sxxcv",
+        "tip3" : "cghfgh",
+        "type" : 1,
+        "zip" : 33333
+      },
+      "Node4" : {
+        "address" : "Fourth street 4A",
+        "answer" : "rrr",
+        "coordLati" : 58.395132,
+        "coordLong" : 15.573471,
+        "image" : "",
+        "noTip" : 3,
+        "question" : "Node 4. Almost at goal",
+        "tip1" : "sdfs",
+        "tip2" : "ssgsd",
+        "tip3" : "vcbcvb",
+        "type" : 1,
+        "zip" : 44444
+      }
+    },
+    "swe1lin3_20190103" : {
+      "Node1" : {
+        "address" : "Fagelbarsvagen 2A",
+        "answer" : "plankton",
+        "coordLati" : 58.341147,
+        "coordLong" : 15.720535,
+        "image" : "https://www.w3schools.com/bootstrap4/sanfran.jpg",
+        "noTip" : 3,
+        "question" : "What is the food of penguins?",
+        "tip1" : "The name is actually for several animals",
+        "tip2" : "This animal follow the stream",
+        "tip3" : "All major fishes it this",
+        "type" : 1,
+        "zip" : 59054
+      },
+      "Node2" : {
+        "address" : "Fagelbarsvagen 2A",
+        "answer" : "whale",
+        "coordLati" : 58.341147,
+        "coordLong" : 15.720535,
+        "image" : "https://www.w3schools.com/bootstrap4/newyork.jpg",
+        "noTip" : 2,
+        "question" : "What kind of animal is the largest living creature on Earth?",
+        "tip1" : "sdfsdf",
+        "tip2" : "sadasd",
+        "tip3" : "sdsdf",
+        "type" : 1,
+        "zip" : 58963
+      },
+      "Node3" : {
+        "address" : "Fagelbarsvagen 2A",
+        "answer" : "pekingese",
+        "coordLati" : 58.341147,
+        "coordLong" : 15.720535,
+        "image" : "https://www.w3schools.com/bootstrap4/paris.jpg",
+        "noTip" : 3,
+        "question" : "Which dog used to be sacred in China?",
+        "tip1" : "asdsd",
+        "tip2" : "asddas",
+        "tip3" : "asdasd",
+        "type" : 1,
+        "zip" : 59055
+      }
+    },
+    "swe2lin31_002" : {
+      "Node1" : {
+        "answer" : "qqq",
+        "coordLati" : 54.23423,
+        "coordLong" : 15.1123123,
+        "image" : "",
+        "noTip" : 3,
+        "question" : "Text",
+        "tip1" : "sdsdfsd",
+        "tip2" : "asasdad",
+        "tip3" : "yutyuty",
+        "type" : 1
+      }
+    },
+    "swe2lin3_20190101" : {
+      "Node1" : {
+        "address" : "Blaeldsvagen 98A",
+        "answer" : "plankton",
+        "coordLati" : 58.341895,
+        "coordLong" : 15.718529,
+        "image" : "dfsdf",
+        "noTip" : 3,
+        "question" : "What is the food of penguins?",
+        "tip1" : "The name is actually for several animals",
+        "tip2" : "This animal follow the stream",
+        "tip3" : "All major fishes it this",
+        "type" : 1,
+        "zip" : 59054
+      },
+      "Node2" : {
+        "address" : "Blaeldsvagen 76-86",
+        "answer" : "whale",
+        "coordLati" : 58.345307,
+        "coordLong" : 15.724688,
+        "image" : "sdfd",
+        "noTip" : 2,
+        "question" : "What kind of animal is the largest living creature on Earth?",
+        "tip1" : "sdfsdf",
+        "tip2" : "sadasd",
+        "tip3" : "sdsdf",
+        "type" : 1,
+        "zip" : 58963
+      },
+      "Node3" : {
+        "address" : "Unnamed road",
+        "answer" : "pekingese",
+        "coordLati" : 58.346483,
+        "coordLong" : 15.73069,
+        "image" : "asd",
+        "noTip" : 3,
+        "question" : "Which dog used to be sacred in China?",
+        "tip1" : "asdsd",
+        "tip2" : "asddas",
+        "tip3" : "asdasd",
+        "type" : 1,
+        "zip" : 59055
+      }
+    },
+    "swe2lin3_20190103" : {
+      "Node1" : {
+        "address" : "Fagelbarsvagen 2A",
+        "answer" : "plankton",
+        "coordLati" : 58.341147,
+        "coordLong" : 15.720535,
+        "image" : "https://www.w3schools.com/bootstrap4/sanfran.jpg",
+        "noTip" : 3,
+        "question" : "What is the food of penguins?",
+        "tip1" : "The name is actually for several animals",
+        "tip2" : "This animal follow the stream",
+        "tip3" : "All major fishes it this",
+        "type" : 2,
+        "zip" : 59054
+      },
+      "Node2" : {
+        "address" : "Fagelbarsvagen 2A",
+        "answer" : "whale",
+        "coordLati" : 58.341147,
+        "coordLong" : 15.720535,
+        "image" : "https://www.w3schools.com/bootstrap4/newyork.jpg",
+        "noTip" : 2,
+        "question" : "What kind of animal is the largest living creature on Earth?",
+        "tip1" : "sdfsdf",
+        "tip2" : "sadasd",
+        "tip3" : "sdsdf",
+        "type" : 2,
+        "zip" : 58963
+      },
+      "Node3" : {
+        "address" : "Fagelbarsvagen 2A",
+        "answer" : "pekingese",
+        "coordLati" : 58.341147,
+        "coordLong" : 15.720535,
+        "image" : "https://www.w3schools.com/bootstrap4/paris.jpg",
+        "noTip" : 3,
+        "question" : "Which dog used to be sacred in China?",
+        "tip1" : "asdsd",
+        "tip2" : "asddas",
+        "tip3" : "asdasd",
+        "type" : 2,
+        "zip" : 59055
+      }
+    }
+  },
+  "Place" : {
+    "Linköping" : {
+      "levelGPS" : "Name of hunt, 2, 6000000, Quiz",
+      "swe1lin3_20190103" : "Onsite test, 3, 60000, Hunt",
+      "swe1lin41_004" : "Best quiz walk ever, 4, 300000, Quiz",
+      "swe1lin43_003" : "Test hunt mode, 4, 200000, Hunt",
+      "swe2lin31_002" : "Test quiz mode, 3, 666000, Quiz",
+      "swe2lin3_20190101" : "Quiz walk - Sturefors, 3, 60000, Quiz",
+      "swe2lin3_20190103" : "Onsite test, 3, 60000, Quiz",
+      "swe2lin61_004" : "Test quiz mode, 6, 60000, Quiz"
+    }
+  },
+  "Users" : {
+    "Erik" : {
+      "account" : "Admin",
+      "email" : "ksjdf@ksnjdf.com",
+      "hunts" : 3,
+      "language" : "swedish",
+      "location" : "uppsala",
+      "name" : "sldfm",
+      "photo" : "www.jnsjdfn.com",
+      "score" : 3,
+      "username" : "Erik the all mighty"
+    },
+    "Maria" : {
+      "account" : "Free",
+      "language" : "English",
+      "location" : "tack stick",
+      "username" : "Maria"
+    },
+    "Mats" : {
+      "Account" : "Free",
+      "Language" : "English",
+      "Location" : "Stockholm",
+      "Username" : "test5 sadas"
+    },
+    "PTJPCJkn9LMnxTqakXfG8ikJYky2" : {
+      "account" : "Free",
+      "email" : "mats.eriksson.ingemar@gmail.com",
+      "hunts" : 0,
+      "language" : "English",
+      "location" : "Linköping",
+      "name" : "Mats Eriksson",
+      "photo" : "Place photo url",
+      "quiz" : 0,
+      "score_hunt" : 0,
+      "score_quiz" : 0,
+      "username" : "Mats The all mighty"
+    },
+    "Test" : {
+      "account" : "Free",
+      "email" : "test.mail@dot.com",
+      "hunts" : 2,
+      "language" : "France",
+      "location" : "Stockholm",
+      "name" : "Test Tester",
+      "photo" : "Place photo url",
+      "quiz" : 3,
+      "scoreHunt" : 215,
+      "scoreQuiz" : 45,
+      "username" : "Tester the all mighty"
+    },
+    "kaYSCyL3oGOeeYTxFVdvLg3rpkB3" : {
+      "account" : "Free",
+      "email" : "mats.eriksson.ingemar@gmail.com",
+      "hunts" : 0,
+      "language" : "Sweden",
+      "location" : "Fågelbärgvägen 2A",
+      "name" : "Mats Eriksson",
+      "photo" : "Place photo url",
+      "quiz" : 0,
+      "scoreHunt" : 0,
+      "scoreQuiz" : 0,
+      "username" : "Mats Eriksson"
+    }
+  }
+}

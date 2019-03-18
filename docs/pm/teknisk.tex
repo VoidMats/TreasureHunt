@@ -1,0 +1,101 @@
+\documentclass{TDP003mall}
+
+\usepackage{listings}
+\usepackage{float}
+\usepackage{array}
+\usepackage{color,colortbl}
+\usepackage{hyperref}
+\usepackage{dirtytalk}
+\usepackage{graphicx}
+
+\definecolor{light-gray}{gray}{0.95}
+\definecolor{tableshade}{gray}{0.9}
+
+\lstset{
+xleftmargin = 0.5cm,
+xrightmargin = 0.5cm,
+framexleftmargin = 0.5em,
+framextopmargin = 0.5em,
+framexbottommargin = 0.5em,
+frame=single
+}
+
+\graphicspath{ {../../images/} }
+
+\newcommand{\version}{Version 1.0}
+\author{Mats Eriksson, \url{mater307@student.liu.se}}
+\title{Technical Promemoria \\ TDP028}
+\date{2019-01-04}
+\rhead{Mats Eriksson}
+
+\begin{document}
+\projectpage
+%##############################################################################
+\section{Revisionhistory}
+%##############################################################################
+\begin{table}[!h]
+\begin{tabularx}{\linewidth}{|l|X|l|}
+\hline
+Ver. & Revision summery & Date \\\hline
+1.0 & First draft & 190105 \\\hline
+\end{tabularx}
+\end{table}
+
+%##############################################################################
+\section{Introduction}
+%##############################################################################
+The main idea for this application is a mix between Treasure hunt and Quiz walk. The location
+system in the mobile platform will trigger the next clue/quiz when the user arrives there.
+The main focus will be at playing the game at different sightseeing places.
+While the game type Treasure hunt or Scavenger hunt has been popular game
+used for decades, usually in paper form. There has not been a digital version mainly
+due to technical difficulties. When the location system was implemented in the mobile
+platforms the popularity of these game types increased rapidly. The concept of these types of games
+can change, but the main idea is still the same, try to find the hidden object by answering
+a series of clues.
+
+%##############################################################################
+\section{Educational purpose}
+%##############################################################################
+By adding educational value into the game, certain historical or cultural places use
+it as a guide. Especially museums offer this type of games as an alternative way to guide their
+customer. This actively involves the customer, increase the visitor experience and the learning get
+more engaged\cite{daphne15}.
+While the study show that this type of interaction can improve the learning, it also lacks
+in other fields. Especially, feedback to the teacher is more or less none. Future system
+could include a real-time learning analytics model (xAPI), which will help the teacher/supervisor on
+the endgame assessment. Still traditional assessment will be required, but a xAPI model will
+be an effective tool to improve the game and in this case more importantly they way the students
+are learning \cite{victor18}.
+
+%##############################################################################
+\section{The market today}
+%##############################################################################
+There are many applications which purpose is only for a certain route or at a specific place.
+But there is also an increasing area of normal treasure hunt games, \textit{Geocaching} being one example.
+One central problem of treasure hunt is often needs a real physical object. The goal
+object can disappear or been removed to a safer location after some time. The Museums often need
+to do repair work which makes the place unaccessible. New games are actively
+trying to change this object into virtual objects, which reduce cost and better maintenance of
+the game\cite{zsolt12}\cite{ridho17}.
+Even games like \textit{Pokeman Go} or other location-based games would be in the competition
+of the application. The educational purpose and excitement of finding out the clues are not there.
+But it's still a game collecting some sort of treasure/object.
+
+%##############################################################################
+\section{Stand out from the rest - Future work}
+%##############################################################################
+Today the application Treasure Hunt only counts in if the user is in the correct position and check if the
+answer is correct. If each location also gives some information about it surrounding it would
+also add some educational purpose. This would increase the market, to not only consist of
+people, but also companies example Museums etc.
+Even adding some sort augmented object would increase the experience for the user. However,
+such a system would need even more study and testing. By adding an augmented object could
+the user collect different object, which could be shown in there profile page. 
+It should be noted that even if the application/game has a certain quality, the main experience
+lies in the information given from the route/hunt.
+
+\bibliographystyle{plain}
+\bibliography{ref_bibtex}
+
+\end{document}

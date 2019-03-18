@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: teknisk.aux
+The style file: plain.bst
+Database file #1: ref_bibtex.bib
+Warning--there's a number but no series in zsolt12
+Warning--there's a number but no series in victor18
+Warning--there's a number but no series in daphne15
+You've used 4 entries,
+            2118 wiz_defined-function locations,
+            524 strings with 4953 characters,
+and the built_in function-call counts, 1756 in all, are:
+= -- 178
+> -- 34
+< -- 7
++ -- 14
+- -- 10
+* -- 96
+:= -- 237
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 94
+empty$ -- 168
+format.name$ -- 10
+if$ -- 423
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 4
+newline$ -- 23
+num.names$ -- 8
+pop$ -- 23
+preamble$ -- 1
+purify$ -- 13
+quote$ -- 0
+skip$ -- 84
+stack$ -- 0
+substring$ -- 140
+swap$ -- 49
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 3
+while$ -- 16
+width$ -- 5
+write$ -- 49
+(There were 3 warnings)

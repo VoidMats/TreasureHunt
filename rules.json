@@ -1,0 +1,32 @@
+{
+  "rules": {
+    "Country": {
+    	// Country is readable for everyone
+    	".read": true,
+    	// Only admin can write new countries
+    	".write": false,
+  	},
+    "Hunts": {
+    	".read": true,
+      ".write": false
+    },
+    "Location": {
+      ".read": true,
+      ".write": false
+    },
+    "Paths": {
+      ".read": true,
+      ".write": false
+    },
+    "Place": {
+      ".read": true,
+      ".write": false
+    },
+    "Users": {
+      ".read": true,
+      "$uid": {
+        ".write": "$uid === auth.uid"
+      }
+    }
+  }
+}

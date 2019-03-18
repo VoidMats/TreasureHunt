@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AB47BC</color>
+    <color name="colorPrimaryDark">#6A1B9A</color>
+    <color name="colorSecondary">#26A69A</color>
+    <color name="colorSecondaryDark">#00796B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryDarkTint">#4a59b5</color>
+
+    <color name="colorButtonGradientDark">#50156e</color>
+    <color name="colorButtonGradientLight">#8e4db7</color>
+    <color name="colorButtonNormal">#6e189b</color>
+    <color name="colorButtonFocus">#5c1283</color>
+    <color name="colorIconGradientDark">#2d156e</color>
+    <color name="colorIconGradientLight">#5f4db7</color>
+    <color name="colorIconNormal">#34189b</color>
+    <color name="colorTableLight">#e5e1e7</color>
+    <color name="colorTableDark">#6A1B9A</color>
+</resources>

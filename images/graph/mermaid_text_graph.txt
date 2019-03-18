@@ -1,0 +1,14 @@
+
+// Graph over the activities
+graph TD;
+MainActivity-->PageViewer;
+PageViewer-->|Adapter|MainFragment(MainFragment);
+PageViewer-->|Adapter|HuntFragment(HuntFragment);
+MainFragment-->|Button|ProfileActivity;
+MainFragment-->|Button|SettingsActivity;
+MainFragment-->|Button|SearchActivity;
+HuntData;
+NodeData;
+UserData;
+TimeCalc;
+

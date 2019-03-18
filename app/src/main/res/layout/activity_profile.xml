@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <Button
+        android:id="@+id/bProfileBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ui_buttons"
+        android:text="@string/bProfileBack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:clipToPadding="true"
+        android:scrollbarStyle="insideOverlay"
+        app:layout_constraintBottom_toTopOf="@+id/bProfileBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:id="@+id/tProfileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tProfileName"
+                android:textSize="@dimen/hunt_text_ldpi" />
+
+            <TextView
+                android:id="@+id/tProfileNameScr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorTableLight"
+                android:text="@string/tProfileNameScr"
+                android:textSize="@dimen/hunt_text_mdpi" />
+
+            <TextView
+                android:id="@+id/tProfileLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tProfileLocation"
+                android:textSize="@dimen/hunt_text_ldpi" />
+
+            <TextView
+                android:id="@+id/tProfileLocationScr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorTableLight"
+                android:text="@string/tProfileLocationScr"
+                android:textSize="@dimen/hunt_text_mdpi" />
+
+            <TextView
+                android:id="@+id/tProfileHunts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tProfileHunt"
+                android:textSize="@dimen/hunt_text_ldpi" />
+
+            <TextView
+                android:id="@+id/tProfileHuntsScr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorTableLight"
+                android:text="@string/tProfileHuntScr"
+                android:textSize="@dimen/hunt_text_mdpi" />
+
+            <TextView
+                android:id="@+id/tProfileQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tProfileQuiz"
+                android:textSize="@dimen/hunt_text_ldpi" />
+
+            <TextView
+                android:id="@+id/tProfileQuizScr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorTableLight"
+                android:text="@string/tProfileQuizScr"
+                android:textSize="@dimen/hunt_text_mdpi" />
+
+            <TextView
+                android:id="@+id/tProfileScoreHunt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tProfileScoreHunt"
+                android:textSize="@dimen/hunt_text_ldpi" />
+
+            <TextView
+                android:id="@+id/tProfileScoreHuntScr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorTableLight"
+                android:text="@string/tProfileScoreHuntScr"
+                android:textSize="@dimen/hunt_text_mdpi" />
+
+            <TextView
+                android:id="@+id/tProfileScoreQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tProfileScoreQuiz"
+                android:textSize="@dimen/hunt_text_ldpi" />
+
+            <TextView
+                android:id="@+id/tProfileScoreQuizScr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorTableLight"
+                android:text="@string/tProfileScoreQuizScr"
+                android:textSize="@dimen/hunt_text_mdpi" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

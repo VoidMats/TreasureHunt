@@ -1,0 +1,91 @@
+{
+  "Hunts" : {
+    "level2GPS" : {
+      "GPS" : 12312312,
+      "country" : "countrytext2",
+      "id" : "level2GPS",
+      "location" : "linköping",
+      "name" : "name of hunt2",
+      "noNodes" : 3,
+      "time" : 222222,
+      "totaltime" : 2222233333,
+      "type" : "hunt"
+    },
+    "level3GPS" : {
+      "GPS" : 33333,
+      "country" : "country3",
+      "id" : "level3GPS",
+      "location" : "linköping",
+      "name" : "name of hunt 3",
+      "noNodes" : 5,
+      "time" : 3333333,
+      "totaltime" : 33333444,
+      "type" : "Hunt"
+    },
+    "levelGPS" : {
+      "GPS" : 121231,
+      "country" : "countrytext",
+      "id" : "levelGPS",
+      "location" : "test",
+      "name" : "name of hunt",
+      "noNodes" : 2,
+      "time" : 1111111,
+      "totaltime" : 111112222,
+      "type" : "Quiz"
+    }
+  },
+  "Paths" : {
+    "levelGPS" : {
+      "Node1" : {
+        "answer" : "qqq",
+        "coordLati" : 23.45,
+        "coordLong" : 23.454,
+        "image" : "https://imageshack.com/i/pocVQUqyp",
+        "noTip" : 3,
+        "question" : "Text question 1",
+        "tip1" : "aksjdkad",
+        "tip2" : "skjasdn",
+        "tip3" : "lsdfmlmsdf",
+        "type" : "type of question"
+      },
+      "Node2" : {
+        "answer" : "www",
+        "coordLati" : 67.23,
+        "coordLong" : 45.12,
+        "image" : "https://imageshack.com/i/poQV192Gj",
+        "noTip" : 2,
+        "question" : "Text question 2",
+        "tip1" : "bbbbbb",
+        "tip2" : "ccccc",
+        "tip3" : "ddddddd",
+        "type" : "type of question 2"
+      }
+    }
+  },
+  "Users" : {
+    "Erik" : {
+      "Account" : "Admin",
+      "Language" : "English",
+      "Location" : "Uppsala",
+      "Name" : "Erik the all mighty"
+    },
+    "Maria" : {
+      "userAccount" : "Free",
+      "userLanguage" : "English",
+      "userLocation" : "ufjgjgkkf",
+      "userName" : "ifugjgkgj"
+    },
+    "Mats" : {
+      "userAccount" : "Free",
+      "userLanguage" : "English",
+      "userLocation" : "stockholm",
+      "userName" : "test5 jfjf"
+    },
+    "Test" : {
+      "Account" : "Free",
+      "Language" : "Swedish",
+      "Location" : "Köping",
+      "Name" : "Tester"
+    }
+  }
+}

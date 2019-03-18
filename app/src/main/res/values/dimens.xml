@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hunt_text_ldpi">16sp</dimen>
+    <dimen name="hunt_text_mdpi">18sp</dimen>
+    <dimen name="hunt_text_hdpi">20sp</dimen>
+</resources>
